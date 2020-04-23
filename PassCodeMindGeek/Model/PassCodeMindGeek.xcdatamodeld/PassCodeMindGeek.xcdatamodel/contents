@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UserLogged" representedClassName="UserLogged" syncable="YES" codeGenerationType="class">
+        <attribute name="blocked" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="isLogged" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="UserLogged" positionX="-54" positionY="-9" width="128" height="88"/>
+    </elements>
+</model>

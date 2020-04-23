@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "82d733b9613ac8b5350c38cd7317b05b"
+build_time: [1587653249, 961843000]
+inputs:
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Application/AppDelegate.swift": [1587599085, 745534594]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Model/passCode/AlertController.swift": [1587581754, 626834061]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/View/SceneDelegate.swift": [1587507540, 559656146]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Controller/CoreDataAssistant.swift": [1587603828, 20102699]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Model/passCode/PassCode.swift": [1587651892, 480269081]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Model/Extension/String+Extension.swift": [1587651866, 659315208]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/View/ConfirmPasscodeViewController.swift": [1587595272, 683885647]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Model/passCode/PassCodeBullet.swift": [1587585287, 349337124]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/View/NewPassCodeViewController.swift": [1587582038, 749616925]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/View/LoginViewController.swift": [1587653249, 876245770]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/View/SettingsViewController.swift": [1587604568, 992647538]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/PassCodeMindGeek/Model/Object/User.swift": [1587598715, 519126956]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/build/PassCodeMindGeek.build/Debug-iphonesimulator/PassCodeMindGeek.build/DerivedSources/CoreDataGenerated/PassCodeMindGeek/UserLogged+CoreDataClass.swift": [1587651441, 747007727]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/build/PassCodeMindGeek.build/Debug-iphonesimulator/PassCodeMindGeek.build/DerivedSources/CoreDataGenerated/PassCodeMindGeek/UserLogged+CoreDataProperties.swift": [1587651441, 747921627]
+  "/Users/rafaelcunhadeoliveira/Documents/PassCodeMindGeek/build/PassCodeMindGeek.build/Debug-iphonesimulator/PassCodeMindGeek.build/DerivedSources/CoreDataGenerated/PassCodeMindGeek/PassCodeMindGeek+CoreDataModel.swift": [1587651441, 743906985]

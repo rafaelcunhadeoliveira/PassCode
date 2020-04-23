@@ -1,0 +1,616 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingsViewController"
+provides-nominal:
+- "16PassCodeMindGeek22SettingsViewControllerC"
+provides-member:
+- ["16PassCodeMindGeek22SettingsViewControllerC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_assistant"
+- "activatePasscode"
+- "addObservable"
+- "assistant"
+- "fechUser"
+- "goToLogin"
+- "passCodeSwitch"
+- "passNeeded"
+- "saveUser"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- "CoreDataAssistant"
+- !private "NotificationCenter"
+- "SettingsViewController"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- "UISwitch"
+- "UIViewController"
+- !private "User"
+- !private "||"
+depends-member:
+- !private ["SK", "isEmpty"]
+- !private ["So15CALayerDelegateP", "isOn"]
+- ["s7CVarArgP", "CoreDataAssistant"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "User"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObservable"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "assistant"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "didEnterBackgroundNotification"]
+- !private ["s7CVarArgP", "fechUser"]
+- !private ["s7CVarArgP", "goToLogin"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isOn"]
+- !private ["s7CVarArgP", "passCodeSwitch"]
+- !private ["s7CVarArgP", "passNeeded"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "saveUser"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "willEnterForegroundNotification"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "isEmpty"]
+- !private ["16PassCodeMindGeek17CoreDataAssistantC", "fetchUser"]
+- ["16PassCodeMindGeek17CoreDataAssistantC", "init"]
+- !private ["16PassCodeMindGeek17CoreDataAssistantC", "save"]
+- ["s28CustomDebugStringConvertibleP", "CoreDataAssistant"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "User"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObservable"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "assistant"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "didEnterBackgroundNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "fechUser"]
+- !private ["s28CustomDebugStringConvertibleP", "goToLogin"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isOn"]
+- !private ["s28CustomDebugStringConvertibleP", "passCodeSwitch"]
+- !private ["s28CustomDebugStringConvertibleP", "passNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "saveUser"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "willEnterForegroundNotification"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "isOn"]
+- ["s23CustomStringConvertibleP", "CoreDataAssistant"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "User"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObservable"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "assistant"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "didEnterBackgroundNotification"]
+- !private ["s23CustomStringConvertibleP", "fechUser"]
+- !private ["s23CustomStringConvertibleP", "goToLogin"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isOn"]
+- !private ["s23CustomStringConvertibleP", "passCodeSwitch"]
+- !private ["s23CustomStringConvertibleP", "passNeeded"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "saveUser"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "willEnterForegroundNotification"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "isOn"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isOn"]
+- ["SQ", "CoreDataAssistant"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "User"]
+- ["SQ", ""]
+- !private ["SQ", "addObservable"]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "assistant"]
+- !private ["SQ", "default"]
+- !private ["SQ", "didEnterBackgroundNotification"]
+- !private ["SQ", "fechUser"]
+- !private ["SQ", "goToLogin"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isOn"]
+- !private ["SQ", "passCodeSwitch"]
+- !private ["SQ", "passNeeded"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "saveUser"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SQ", "willEnterForegroundNotification"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "isOn"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["SH", "CoreDataAssistant"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "User"]
+- ["SH", ""]
+- !private ["SH", "addObservable"]
+- !private ["SH", "addObserver"]
+- !private ["SH", "assistant"]
+- !private ["SH", "default"]
+- !private ["SH", "didEnterBackgroundNotification"]
+- !private ["SH", "fechUser"]
+- !private ["SH", "goToLogin"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isOn"]
+- !private ["SH", "passCodeSwitch"]
+- !private ["SH", "passNeeded"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "saveUser"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- !private ["SH", "willEnterForegroundNotification"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- ["So8NSCodingP", "CoreDataAssistant"]
+- !private ["So8NSCodingP", "NotificationCenter"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "User"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addObservable"]
+- !private ["So8NSCodingP", "assistant"]
+- !private ["So8NSCodingP", "fechUser"]
+- !private ["So8NSCodingP", "goToLogin"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "isOn"]
+- !private ["So8NSCodingP", "passCodeSwitch"]
+- !private ["So8NSCodingP", "passNeeded"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "saveUser"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- ["So26NSExtensionRequestHandlingP", "CoreDataAssistant"]
+- !private ["So26NSExtensionRequestHandlingP", "NotificationCenter"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "User"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addObservable"]
+- !private ["So26NSExtensionRequestHandlingP", "assistant"]
+- !private ["So26NSExtensionRequestHandlingP", "fechUser"]
+- !private ["So26NSExtensionRequestHandlingP", "goToLogin"]
+- !private ["So26NSExtensionRequestHandlingP", "passCodeSwitch"]
+- !private ["So26NSExtensionRequestHandlingP", "passNeeded"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "saveUser"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "$__lazy_storage_$_assistant"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CoreDataAssistant"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UISwitch"]
+- !private ["So8NSObjectC", "User"]
+- ["So8NSObjectC", "activatePasscode"]
+- ["So8NSObjectC", "addObservable"]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "assistant"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "didEnterBackgroundNotification"]
+- ["So8NSObjectC", "fechUser"]
+- ["So8NSObjectC", "goToLogin"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "isOn"]
+- ["So8NSObjectC", "passCodeSwitch"]
+- ["So8NSObjectC", "passNeeded"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So8NSObjectC", "saveUser"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectC", "willEnterForegroundNotification"]
+- ["So8NSObjectP", "CoreDataAssistant"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "User"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addObservable"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "assistant"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "didEnterBackgroundNotification"]
+- !private ["So8NSObjectP", "fechUser"]
+- !private ["So8NSObjectP", "goToLogin"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "isOn"]
+- !private ["So8NSObjectP", "passCodeSwitch"]
+- !private ["So8NSObjectP", "passNeeded"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "saveUser"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["So8NSObjectP", "willEnterForegroundNotification"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["Sq", "isOn"]
+- !private ["Sm", "isEmpty"]
+- !private ["ST", "isEmpty"]
+- !private ["16PassCodeMindGeek22SettingsViewControllerC", "$__lazy_storage_$_assistant"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "Bool"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "CoreDataAssistant"]
+- !private ["16PassCodeMindGeek22SettingsViewControllerC", "NotificationCenter"]
+- !private ["16PassCodeMindGeek22SettingsViewControllerC", "UIApplication"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "UISwitch"]
+- !private ["16PassCodeMindGeek22SettingsViewControllerC", "User"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "activatePasscode"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "addObservable"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "assistant"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "deinit"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "fechUser"]
+- !private ["16PassCodeMindGeek22SettingsViewControllerC", "goToLogin"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "init"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "passCodeSwitch"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "passNeeded"]
+- !private ["16PassCodeMindGeek22SettingsViewControllerC", "performSegue"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "saveUser"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "viewDidLoad"]
+- ["16PassCodeMindGeek22SettingsViewControllerC", "viewWillAppear"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "isOn"]
+- !private ["So12UIAppearanceP", "isOn"]
+- ["So21UIAppearanceContainerP", "CoreDataAssistant"]
+- !private ["So21UIAppearanceContainerP", "NotificationCenter"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "User"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addObservable"]
+- !private ["So21UIAppearanceContainerP", "assistant"]
+- !private ["So21UIAppearanceContainerP", "fechUser"]
+- !private ["So21UIAppearanceContainerP", "goToLogin"]
+- !private ["So21UIAppearanceContainerP", "isOn"]
+- !private ["So21UIAppearanceContainerP", "passCodeSwitch"]
+- !private ["So21UIAppearanceContainerP", "passNeeded"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "saveUser"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So13UIApplicationC", "didEnterBackgroundNotification"]
+- !private ["So13UIApplicationC", "willEnterForegroundNotification"]
+- ["So18UIContentContainerP", "CoreDataAssistant"]
+- !private ["So18UIContentContainerP", "NotificationCenter"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "User"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addObservable"]
+- !private ["So18UIContentContainerP", "assistant"]
+- !private ["So18UIContentContainerP", "fechUser"]
+- !private ["So18UIContentContainerP", "goToLogin"]
+- !private ["So18UIContentContainerP", "passCodeSwitch"]
+- !private ["So18UIContentContainerP", "passNeeded"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "saveUser"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So9UIControlC", "isOn"]
+- !private ["So17UICoordinateSpaceP", "isOn"]
+- !private ["So13UIDynamicItemP", "isOn"]
+- ["So18UIFocusEnvironmentP", "CoreDataAssistant"]
+- !private ["So18UIFocusEnvironmentP", "NotificationCenter"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "User"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addObservable"]
+- !private ["So18UIFocusEnvironmentP", "assistant"]
+- !private ["So18UIFocusEnvironmentP", "fechUser"]
+- !private ["So18UIFocusEnvironmentP", "goToLogin"]
+- !private ["So18UIFocusEnvironmentP", "isOn"]
+- !private ["So18UIFocusEnvironmentP", "passCodeSwitch"]
+- !private ["So18UIFocusEnvironmentP", "passNeeded"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "saveUser"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So11UIFocusItemP", "isOn"]
+- !private ["So20UIFocusItemContainerP", "isOn"]
+- !private ["So24UILargeContentViewerItemP", "isOn"]
+- ["So30UIPasteConfigurationSupportingP", "CoreDataAssistant"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "User"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addObservable"]
+- !private ["So30UIPasteConfigurationSupportingP", "assistant"]
+- !private ["So30UIPasteConfigurationSupportingP", "didEnterBackgroundNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "fechUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "goToLogin"]
+- !private ["So30UIPasteConfigurationSupportingP", "isOn"]
+- !private ["So30UIPasteConfigurationSupportingP", "passCodeSwitch"]
+- !private ["So30UIPasteConfigurationSupportingP", "passNeeded"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "saveUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "willEnterForegroundNotification"]
+- ["So11UIResponderC", "$__lazy_storage_$_assistant"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CoreDataAssistant"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UISwitch"]
+- !private ["So11UIResponderC", "User"]
+- ["So11UIResponderC", "activatePasscode"]
+- ["So11UIResponderC", "addObservable"]
+- ["So11UIResponderC", "assistant"]
+- !private ["So11UIResponderC", "didEnterBackgroundNotification"]
+- ["So11UIResponderC", "fechUser"]
+- ["So11UIResponderC", "goToLogin"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isOn"]
+- ["So11UIResponderC", "passCodeSwitch"]
+- ["So11UIResponderC", "passNeeded"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "saveUser"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So11UIResponderC", "willEnterForegroundNotification"]
+- ["So30UIResponderStandardEditActionsP", "CoreDataAssistant"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "User"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addObservable"]
+- !private ["So30UIResponderStandardEditActionsP", "assistant"]
+- !private ["So30UIResponderStandardEditActionsP", "didEnterBackgroundNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "fechUser"]
+- !private ["So30UIResponderStandardEditActionsP", "goToLogin"]
+- !private ["So30UIResponderStandardEditActionsP", "isOn"]
+- !private ["So30UIResponderStandardEditActionsP", "passCodeSwitch"]
+- !private ["So30UIResponderStandardEditActionsP", "passNeeded"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "saveUser"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "willEnterForegroundNotification"]
+- ["So16UIStateRestoringP", "CoreDataAssistant"]
+- !private ["So16UIStateRestoringP", "NotificationCenter"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "User"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addObservable"]
+- !private ["So16UIStateRestoringP", "assistant"]
+- !private ["So16UIStateRestoringP", "fechUser"]
+- !private ["So16UIStateRestoringP", "goToLogin"]
+- !private ["So16UIStateRestoringP", "passCodeSwitch"]
+- !private ["So16UIStateRestoringP", "passNeeded"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "saveUser"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So8UISwitchC", "isOn"]
+- ["So18UITraitEnvironmentP", "CoreDataAssistant"]
+- !private ["So18UITraitEnvironmentP", "NotificationCenter"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "User"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addObservable"]
+- !private ["So18UITraitEnvironmentP", "assistant"]
+- !private ["So18UITraitEnvironmentP", "fechUser"]
+- !private ["So18UITraitEnvironmentP", "goToLogin"]
+- !private ["So18UITraitEnvironmentP", "isOn"]
+- !private ["So18UITraitEnvironmentP", "passCodeSwitch"]
+- !private ["So18UITraitEnvironmentP", "passNeeded"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "saveUser"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So23UIUserActivityRestoringP", "CoreDataAssistant"]
+- !private ["So23UIUserActivityRestoringP", "NotificationCenter"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- !private ["So23UIUserActivityRestoringP", "User"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addObservable"]
+- !private ["So23UIUserActivityRestoringP", "assistant"]
+- !private ["So23UIUserActivityRestoringP", "didEnterBackgroundNotification"]
+- !private ["So23UIUserActivityRestoringP", "fechUser"]
+- !private ["So23UIUserActivityRestoringP", "goToLogin"]
+- !private ["So23UIUserActivityRestoringP", "isOn"]
+- !private ["So23UIUserActivityRestoringP", "passCodeSwitch"]
+- !private ["So23UIUserActivityRestoringP", "passNeeded"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "saveUser"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "willEnterForegroundNotification"]
+- !private ["So6UIViewC", "isOn"]
+- ["So16UIViewControllerC", "$__lazy_storage_$_assistant"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CoreDataAssistant"]
+- !private ["So16UIViewControllerC", "NotificationCenter"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UISwitch"]
+- !private ["So16UIViewControllerC", "User"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "activatePasscode"]
+- ["So16UIViewControllerC", "addObservable"]
+- ["So16UIViewControllerC", "assistant"]
+- ["So16UIViewControllerC", "fechUser"]
+- ["So16UIViewControllerC", "goToLogin"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "passCodeSwitch"]
+- ["So16UIViewControllerC", "passNeeded"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "saveUser"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["16PassCodeMindGeek4UserC", "blocked"]
+- !private ["16PassCodeMindGeek4UserC", "code"]
+- !private ["16PassCodeMindGeek4UserC", "isLogged"]
+- !private ["16PassCodeMindGeek4UserC", "sharedInstace"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataAssistant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "User"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObservable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assistant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didEnterBackgroundNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fechUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "goToLogin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passCodeSwitch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "willEnterForegroundNotification"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CoreDataAssistant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "User"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObservable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "assistant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEnterBackgroundNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fechUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "goToLogin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isOn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "passCodeSwitch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "passNeeded"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performSegue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillAppear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willEnterForegroundNotification"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "isOn"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isOn"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "16PassCodeMindGeek17CoreDataAssistantC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So20NSNotificationCenterC"
+- !private "Sq"
+- !private "Sm"
+- !private "ST"
+- "16PassCodeMindGeek22SettingsViewControllerC"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So8UISwitchC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "16PassCodeMindGeek4UserC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c03a35db05f31ae93ae1ec3bb43975d7"

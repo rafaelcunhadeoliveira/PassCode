@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PassCode" customModule="PassCodeMindGeek" customModuleProvider="target">
+            <connections>
+                <outlet property="bulletFour" destination="ijB-fn-itk" id="YWy-Yy-48i"/>
+                <outlet property="bulletOne" destination="pAc-g9-boA" id="7XH-V8-ZVu"/>
+                <outlet property="bulletThree" destination="PzU-Lf-gj7" id="upk-yI-SMg"/>
+                <outlet property="bulletTwo" destination="Qzj-tL-t3L" id="dJ7-oD-r0m"/>
+                <outlet property="passCodeView" destination="iN0-l3-epB" id="Hei-Pe-OWG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="123"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="4qr-zF-fNB">
+                    <rect key="frame" x="102.5" y="41.5" width="208" height="40"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAc-g9-boA" customClass="PassCodeBullet" customModule="PassCodeMindGeek" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="8xe-Ph-5Ok"/>
+                                <constraint firstAttribute="width" secondItem="pAc-g9-boA" secondAttribute="height" multiplier="1:1" id="equ-pw-VTC"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qzj-tL-t3L" customClass="PassCodeBullet" customModule="PassCodeMindGeek" customModuleProvider="target">
+                            <rect key="frame" x="56" y="0.0" width="40" height="40"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Qf0-d2-dp5"/>
+                                <constraint firstAttribute="width" secondItem="Qzj-tL-t3L" secondAttribute="height" multiplier="1:1" id="gq3-J4-7J3"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PzU-Lf-gj7" customClass="PassCodeBullet" customModule="PassCodeMindGeek" customModuleProvider="target">
+                            <rect key="frame" x="112" y="0.0" width="40" height="40"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="2d8-dC-osD"/>
+                                <constraint firstAttribute="width" secondItem="PzU-Lf-gj7" secondAttribute="height" multiplier="1:1" id="Sue-l9-ufr"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ijB-fn-itk" customClass="PassCodeBullet" customModule="PassCodeMindGeek" customModuleProvider="target">
+                            <rect key="frame" x="168" y="0.0" width="40" height="40"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="NOr-XF-3de"/>
+                                <constraint firstAttribute="width" secondItem="ijB-fn-itk" secondAttribute="height" multiplier="1:1" id="Zg1-R3-OdR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="4qr-zF-fNB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="B6k-4e-qzT"/>
+                <constraint firstItem="4qr-zF-fNB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Iow-6D-RQM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="221.01449275362322" y="-37.165178571428569"/>
+        </view>
+    </objects>
+</document>

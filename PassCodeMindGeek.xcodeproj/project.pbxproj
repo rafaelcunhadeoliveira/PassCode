@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		FC454757244FA8D4000A5582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC454756244FA8D4000A5582 /* AppDelegate.swift */; };
 		FC454759244FA8D4000A5582 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC454758244FA8D4000A5582 /* SceneDelegate.swift */; };
-		FC45475B244FA8D4000A5582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45475A244FA8D4000A5582 /* ViewController.swift */; };
 		FC45475E244FA8D4000A5582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC45475C244FA8D4000A5582 /* Main.storyboard */; };
 		FC454761244FA8D4000A5582 /* PassCodeMindGeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC45475F244FA8D4000A5582 /* PassCodeMindGeek.xcdatamodeld */; };
 		FC454763244FA8D7000A5582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC454762244FA8D7000A5582 /* Assets.xcassets */; };
 		FC454766244FA8D7000A5582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC454764244FA8D7000A5582 /* LaunchScreen.storyboard */; };
 		FC454771244FA8D7000A5582 /* PassCodeMindGeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC454770244FA8D7000A5582 /* PassCodeMindGeekTests.swift */; };
 		FC45477C244FA8D7000A5582 /* PassCodeMindGeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45477B244FA8D7000A5582 /* PassCodeMindGeekUITests.swift */; };
+		FC45478D244FAC71000A5582 /* PassCodeBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45478C244FAC71000A5582 /* PassCodeBullet.swift */; };
+		FC45478F244FB02C000A5582 /* NewPassCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45478E244FB02C000A5582 /* NewPassCodeViewController.swift */; };
+		FC454791244FB94D000A5582 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC454790244FB94D000A5582 /* SettingsViewController.swift */; };
+		FC454793244FBC39000A5582 /* ConfirmPasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC454792244FBC39000A5582 /* ConfirmPasscodeViewController.swift */; };
+		FC454799244FBE9B000A5582 /* PassCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC454798244FBE9B000A5582 /* PassCode.swift */; };
+		FC45479B244FBEA8000A5582 /* PassCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC45479A244FBEA8000A5582 /* PassCode.xib */; };
+		FC45479D2450C9A7000A5582 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45479C2450C9A7000A5582 /* AlertController.swift */; };
+		FC45479F2450D43B000A5582 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45479E2450D43B000A5582 /* LoginViewController.swift */; };
+		FC4547A22450F3D4000A5582 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4547A12450F3D4000A5582 /* User.swift */; };
+		FC4547A524511F55000A5582 /* CoreDataAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4547A424511F55000A5582 /* CoreDataAssistant.swift */; };
+		FC4547A82451DC73000A5582 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4547A72451DC73000A5582 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +49,6 @@
 		FC454753244FA8D4000A5582 /* PassCodeMindGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassCodeMindGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC454756244FA8D4000A5582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC454758244FA8D4000A5582 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC45475A244FA8D4000A5582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC45475D244FA8D4000A5582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC454760244FA8D4000A5582 /* PassCodeMindGeek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassCodeMindGeek.xcdatamodel; sourceTree = "<group>"; };
 		FC454762244FA8D7000A5582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		FC454777244FA8D7000A5582 /* PassCodeMindGeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassCodeMindGeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC45477B244FA8D7000A5582 /* PassCodeMindGeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCodeMindGeekUITests.swift; sourceTree = "<group>"; };
 		FC45477D244FA8D7000A5582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC45478C244FAC71000A5582 /* PassCodeBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCodeBullet.swift; sourceTree = "<group>"; };
+		FC45478E244FB02C000A5582 /* NewPassCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassCodeViewController.swift; sourceTree = "<group>"; };
+		FC454790244FB94D000A5582 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FC454792244FBC39000A5582 /* ConfirmPasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPasscodeViewController.swift; sourceTree = "<group>"; };
+		FC454798244FBE9B000A5582 /* PassCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCode.swift; sourceTree = "<group>"; };
+		FC45479A244FBEA8000A5582 /* PassCode.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PassCode.xib; sourceTree = "<group>"; };
+		FC45479C2450C9A7000A5582 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		FC45479E2450D43B000A5582 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC4547A12450F3D4000A5582 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FC4547A424511F55000A5582 /* CoreDataAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAssistant.swift; sourceTree = "<group>"; };
+		FC4547A72451DC73000A5582 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,10 @@
 		FC454755244FA8D4000A5582 /* PassCodeMindGeek */ = {
 			isa = PBXGroup;
 			children = (
-				FC454756244FA8D4000A5582 /* AppDelegate.swift */,
-				FC454758244FA8D4000A5582 /* SceneDelegate.swift */,
-				FC45475A244FA8D4000A5582 /* ViewController.swift */,
-				FC45475C244FA8D4000A5582 /* Main.storyboard */,
-				FC454762244FA8D7000A5582 /* Assets.xcassets */,
-				FC454764244FA8D7000A5582 /* LaunchScreen.storyboard */,
-				FC454767244FA8D7000A5582 /* Info.plist */,
-				FC45475F244FA8D4000A5582 /* PassCodeMindGeek.xcdatamodeld */,
+				FC4547A324511F2A000A5582 /* Controller */,
+				FC45478B244FA90E000A5582 /* Model */,
+				FC45478A244FA8FE000A5582 /* View */,
+				FC454789244FA8E3000A5582 /* Application */,
 			);
 			path = PassCodeMindGeek;
 			sourceTree = "<group>";
@@ -129,6 +145,76 @@
 				FC45477D244FA8D7000A5582 /* Info.plist */,
 			);
 			path = PassCodeMindGeekUITests;
+			sourceTree = "<group>";
+		};
+		FC454789244FA8E3000A5582 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FC454767244FA8D7000A5582 /* Info.plist */,
+				FC454756244FA8D4000A5582 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FC45478A244FA8FE000A5582 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC45475C244FA8D4000A5582 /* Main.storyboard */,
+				FC454758244FA8D4000A5582 /* SceneDelegate.swift */,
+				FC454764244FA8D7000A5582 /* LaunchScreen.storyboard */,
+				FC45478E244FB02C000A5582 /* NewPassCodeViewController.swift */,
+				FC454790244FB94D000A5582 /* SettingsViewController.swift */,
+				FC454792244FBC39000A5582 /* ConfirmPasscodeViewController.swift */,
+				FC45479E2450D43B000A5582 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC45478B244FA90E000A5582 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC4547A62451DC0D000A5582 /* Extension */,
+				FC4547A02450F3C5000A5582 /* Object */,
+				FC454797244FBE2E000A5582 /* passCode */,
+				FC45475F244FA8D4000A5582 /* PassCodeMindGeek.xcdatamodeld */,
+				FC454762244FA8D7000A5582 /* Assets.xcassets */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC454797244FBE2E000A5582 /* passCode */ = {
+			isa = PBXGroup;
+			children = (
+				FC45478C244FAC71000A5582 /* PassCodeBullet.swift */,
+				FC454798244FBE9B000A5582 /* PassCode.swift */,
+				FC45479A244FBEA8000A5582 /* PassCode.xib */,
+				FC45479C2450C9A7000A5582 /* AlertController.swift */,
+			);
+			path = passCode;
+			sourceTree = "<group>";
+		};
+		FC4547A02450F3C5000A5582 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				FC4547A12450F3D4000A5582 /* User.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		FC4547A324511F2A000A5582 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC4547A424511F55000A5582 /* CoreDataAssistant.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC4547A62451DC0D000A5582 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC4547A72451DC73000A5582 /* String+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +324,7 @@
 				FC454766244FA8D7000A5582 /* LaunchScreen.storyboard in Resources */,
 				FC454763244FA8D7000A5582 /* Assets.xcassets in Resources */,
 				FC45475E244FA8D4000A5582 /* Main.storyboard in Resources */,
+				FC45479B244FBEA8000A5582 /* PassCode.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +349,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC45475B244FA8D4000A5582 /* ViewController.swift in Sources */,
 				FC454757244FA8D4000A5582 /* AppDelegate.swift in Sources */,
+				FC45479D2450C9A7000A5582 /* AlertController.swift in Sources */,
 				FC454759244FA8D4000A5582 /* SceneDelegate.swift in Sources */,
+				FC4547A524511F55000A5582 /* CoreDataAssistant.swift in Sources */,
 				FC454761244FA8D4000A5582 /* PassCodeMindGeek.xcdatamodeld in Sources */,
+				FC454799244FBE9B000A5582 /* PassCode.swift in Sources */,
+				FC4547A82451DC73000A5582 /* String+Extension.swift in Sources */,
+				FC454793244FBC39000A5582 /* ConfirmPasscodeViewController.swift in Sources */,
+				FC45478D244FAC71000A5582 /* PassCodeBullet.swift in Sources */,
+				FC45478F244FB02C000A5582 /* NewPassCodeViewController.swift in Sources */,
+				FC45479F2450D43B000A5582 /* LoginViewController.swift in Sources */,
+				FC454791244FB94D000A5582 /* SettingsViewController.swift in Sources */,
+				FC4547A22450F3D4000A5582 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +535,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PassCodeMindGeek/Info.plist;
+				DEVELOPMENT_TEAM = YH7K6PQM2C;
+				INFOPLIST_FILE = ../PassCodeMindGeek/PassCodeMindGeek/Application/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +553,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PassCodeMindGeek/Info.plist;
+				DEVELOPMENT_TEAM = YH7K6PQM2C;
+				INFOPLIST_FILE = ../PassCodeMindGeek/PassCodeMindGeek/Application/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
